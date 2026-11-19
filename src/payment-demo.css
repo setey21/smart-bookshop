@@ -1,0 +1,11 @@
+.demo-payment-card{max-width:620px}
+.demo-payment-brand,.demo-payment-total,.demo-payment-items>div{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.demo-payment-brand{padding-bottom:14px;border-bottom:1px solid var(--line)}
+.demo-payment-brand .eyebrow{margin:0}
+.demo-payment-brand strong{color:var(--green);font:700 26px 'Playfair Display',serif}
+.demo-payment-items{display:grid;gap:12px;margin:22px 0}
+.demo-payment-items>div{padding-bottom:10px;border-bottom:1px solid var(--line);font-size:13px}
+.demo-payment-total{padding-top:12px;border-top:1px solid var(--line);font-size:15px}
+.demo-payment-total strong{font-size:21px}
+.demo-payment-method{display:flex;align-items:center;gap:12px;margin:18px 0}
+.demo-payment-method .status-pill{background:#edf1ec}
